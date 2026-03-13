@@ -18,10 +18,10 @@ var cfg config.Config
 var rootRevision string
 
 var rootCmd = &cobra.Command{
-	Use:            "jitzu",
-	Short:          "Commitizen for Jujutsu — interactive conventional commits for jj",
-	SilenceUsage:   true,
-	SilenceErrors:  true,
+	Use:           "jitzu",
+	Short:         "Commitizen for Jujutsu — interactive conventional commits for jj",
+	SilenceUsage:  true,
+	SilenceErrors: true,
 	PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
 		if cmd.Name() == "init" {
 			return nil

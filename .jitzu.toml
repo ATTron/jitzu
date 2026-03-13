@@ -1,0 +1,25 @@
+# jitzu — Commitizen for Jujutsu
+# This is an example configuration file.
+
+# Custom commit types (overrides defaults if set):
+# [[types]]
+# name = "feat"
+# description = "A new feature"
+# [[types]]
+# name = "fix"
+# description = "A bug fix"
+
+# Restrict scopes to a predefined list:
+# scopes = ["api", "ui", "core"]
+
+# Require scope on every commit:
+# scope_required = false
+
+# Require body on every commit:
+# body_required = false
+
+# Maximum subject line length (default: 72):
+# subject_max_len = 72
+
+# Maximum body length (0 = unlimited):
+# body_max_len = 0

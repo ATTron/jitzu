@@ -51,11 +51,9 @@ var initCmd = &cobra.Command{
 			fmt.Println("Alias installed! You can now use: jj z")
 		} else {
 			fmt.Println("To set up the jj alias, add this to ~/.jjconfig.toml:")
-			fmt.Println()
 			fmt.Println(`[aliases]`)
 			fmt.Println(`z = ["util", "exec", "--", "jitzu", "describe"]`)
-			fmt.Println()
-			fmt.Println("Or run: jitzu init --install-alias")
+			fmt.Println("\nOr run: jitzu init --install-alias")
 		}
 
 		return nil
